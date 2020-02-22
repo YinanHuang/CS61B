@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  22 FEB 2020 18:55
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  22 FEB 2020 19:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1193,11 +1193,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ]
 (./note_cs61b.aux) ) 
 Here is how much of TeX's memory you used:
- 14224 strings out of 492970
- 333597 string characters out of 6137298
- 392933 words of memory out of 5000000
- 18113 multiletter control sequences out of 15000+600000
- 533258 words of font info for 50 fonts, out of 8000000 for 9000
+ 14262 strings out of 492970
+ 335832 string characters out of 6137298
+ 394933 words of memory out of 5000000
+ 18148 multiletter control sequences out of 15000+600000
+ 533282 words of font info for 53 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,6n,68p,10437b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 

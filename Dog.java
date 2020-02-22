@@ -4,4 +4,10 @@ public class Dog{
     public Dog(int w){
         this.weight=w;
     }
+    public static Dog maxDog(Dog d1, Dog d2) {
+    if (this.weight > d2.weight) {
+        return this;
+    }
+    return d2;
+}
 }
