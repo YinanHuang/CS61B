@@ -1,7 +1,7 @@
-public class SLList<hyn>{
+public class SLList{
     /** Inner class: IntNode */
     public class IntNode{
-        public hyn item;
+        public int item;
         //public IntNode prev;
         public IntNode next;
         public IntNode(int i, IntNode n){
