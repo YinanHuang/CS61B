@@ -11,7 +11,18 @@
 	\maketitle
 	\tableofcontents
 	\section{Java编程基础}
+	\subsection{Class in Java}
 	Java的所有code都必须定义在类中。类中定义的变量和函数分static和non-static。static变量/函数是抽象的，可以由类本身直接引用。non-static变量/函数是具体的，必须先定义一个对象，然后对象才能调用non-static变量/函数。简单来说，当想要用类来调用某个成员时，请用static定义该成员；当想用具体的对象来调用某个成员时，用non-static定义该成员。
 	
 	特别的，java中的main函数也必须以static的方式定义在类中。
+	\subsection{Private 与 public/Static与non-static}
+	Private的变量只能在class内部调用，而public的变量可以在class外部调用。
+	
+	static指的是类本身的变量，通过类来调用；non-static必须通过对象调用。当定义类中的内部类时，若内部类为static，则这个内部类只能通过大类来声明、调用，故没办法访问大类中的non-static变量；当内部类是non-static时，需要通过大类的对象声明、调用。内部的non-static类不能有static变量。举个例子：
+	
+	(1)Outerclass里的Innerclass为static的。这时用Outerclass.Innerclass表示这个类，Innerclass的对象声明为new Outerclass.Innerclass(); Innerclass内的static变量x可以用Outerclass.Innerclass.x表示；non-static变量y用in=new Outerclass.Innerclass(), in.y表示。
+	
+	(2)Outerclass里的Innerclass为non-static的。这时还是用Outerclass.Interclass表示这个类，Innerclass的实例声明为 out.new Innerclass，out为Outerclass的实例。Innerclass内不能有static变量x；Innerclass内的non-static变量y用out.in.y表示。
+	
+	简单来说，static变量的前一级是类；non-static变量的前一级是对象。
 \end{document}

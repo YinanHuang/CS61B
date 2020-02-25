@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de49cd4e-396e-4f2d-95f3-3d8aea5befb3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javalib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CS61B.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.aux" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.aux" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.log" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.synctex.gz" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.synctex.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.tex" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note_cs61b/note_cs61b.toc" beforeDir="false" afterPath="$PROJECT_DIR$/note_cs61b/note_cs61b.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-sp19-master/lab2/DebugPractice/DebugExercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-sp19-master/lab2/DebugPractice/DebugExercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skeleton-sp19-master/lab2/Intlist/IntList.java" beforeDir="false" afterPath="$PROJECT_DIR$/skeleton-sp19-master/lab2/Intlist/IntList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YFXLbPGkWDnBfQVgOUhQPIezyd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.DebugExercise1">
+    <configuration name="DebugExercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DebugExercise1" />
+      <module name="CS61B" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="CS61B" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DebugExercise1" />
+        <item itemvalue="Application.HelloWorld" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de49cd4e-396e-4f2d-95f3-3d8aea5befb3" name="Default Changelist" comment="" />
+      <created>1582539260663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582539260663</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582539434720">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1582539434720" />
+    <state x="421" y="56" key="FileChooserDialogImpl" timestamp="1582542350016">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="56" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582542350016" />
+    <state x="288" y="38" key="NewModule_or_Project.wizard" timestamp="1582542360914">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="288" y="38" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1582542360914" />
+  </component>
+</project>

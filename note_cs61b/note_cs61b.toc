@@ -1,1 +1,3 @@
 \contentsline {section}{\numberline {1}Java编程基础}{1}
+\contentsline {subsection}{\numberline {1.1}Class in Java}{1}
+\contentsline {subsection}{\numberline {1.2}Private 与 public/Static与non-static}{1}
