@@ -107,7 +107,7 @@ public class SLList<any> {
     }
 
     public any removeFirst(){
-
+        return null;
     }
     /** Return the first item */
 

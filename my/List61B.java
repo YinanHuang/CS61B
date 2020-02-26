@@ -8,4 +8,7 @@ public interface List61B<any>{
     public any get(int index);
     public void insert(any x, int position);
     public int size();
+    default public void print(){
+        System.out.println(get(0));
+    }
 }

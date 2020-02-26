@@ -41,6 +41,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Add a node after the head */
+    @Override
     public void addFirst(any x){
         this.size++;
         anyNode node = new anyNode(x, this.head, this.head.next);
@@ -49,6 +50,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Remove the node after the head */
+    @Override
     public any removeFirst(){
         anyNode node = this.head.next;
         any x = node.item;
@@ -61,11 +63,13 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Get the first item */
+    @Override
     public any getFirst(){
         return this.head.next.item;
     }
 
     /** Add a node before the head (after the last). */
+    @Override
     public void addLast(any x){
         this.size++;
         anyNode node = new anyNode(x, this.head.prev, this.head);
@@ -74,6 +78,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Remove a node before the head (after the last). */
+    @Override
     public any removeLast() {
         anyNode node = this.head.prev;
         any x = node.item;
@@ -86,6 +91,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Get the last item */
+    @Override
     public any getLast(){
         return this.head.prev.item;
     }
@@ -100,6 +106,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Return the size of the list. */
+    @Override
     public int size(){
         return this.size;
     }
@@ -113,6 +120,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Get the i th item of our list. */
+    @Override
     public any get(int i){
         int j = 0;
         anyNode p = this.head.next;
@@ -135,6 +143,7 @@ public class LinkedListDeque<any> implements List61B<any>{
     }
 
     /** Insert a num at position i */
+    @Override
     public void insert(any x, int position){
         position = Math.min(position, this.size);
         anyNode pin = this.head;
@@ -145,4 +154,5 @@ public class LinkedListDeque<any> implements List61B<any>{
         pin.next = node;
         node.next.prev = node;
     }
+
 }
