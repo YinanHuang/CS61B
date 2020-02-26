@@ -25,4 +25,6 @@
 	(2)Outerclass里的Innerclass为non-static的。这时还是用Outerclass.Interclass表示这个类，Innerclass的实例声明为 out.new Innerclass，out为Outerclass的实例。Innerclass内不能有static变量x；Innerclass内的non-static变量y用out.in.y表示。
 	
 	简单来说，static变量的前一级是类；non-static变量的前一级是对象。
+	\subsection{JUnit Testing}
+	对于类中的每个方法，都可以单独写一个test函数。这个test函数用non-static定义，然后在函数前加上@org.junit.Test，可以直接运行test函数。同时不同的test的独立进行。
 \end{document}

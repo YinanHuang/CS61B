@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  24 FEB 2020 20:29
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  26 FEB 2020 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1184,7 +1184,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 11.
- (./note_cs61b.toc)
+ (./note_cs61b.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.53937> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
 \tf@toc=\write3
 \openout3 = `note_cs61b.toc'.
 
@@ -1193,11 +1200,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ] [2]
 (./note_cs61b.aux) ) 
 Here is how much of TeX's memory you used:
- 14287 strings out of 492970
- 337305 string characters out of 6137298
+ 14299 strings out of 492970
+ 337584 string characters out of 6137298
  398933 words of memory out of 5000000
- 18171 multiletter control sequences out of 15000+600000
- 533298 words of font info for 55 fonts, out of 8000000 for 9000
+ 18179 multiletter control sequences out of 15000+600000
+ 534230 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,6n,68p,10437b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 
