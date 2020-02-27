@@ -1,6 +1,9 @@
 public class HelloWorld {
+    public static int doTwice(UnionFunc f, int x){
+        return f.apply(f.apply(x));
+    }
     public static void main(String[] args) {
-        System.out.println(-1%10);
-
+        UnionFunc magic = new square();
+        System.out.println(doTwice(magic,5));
     }
 }
