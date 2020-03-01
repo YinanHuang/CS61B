@@ -52,4 +52,19 @@
 	类的定义中可以带上泛型：public class xxx<any>，这里any就是一个泛型，代指某种引用类型。实际实例化时，需要将any用某个引用类型填入。
 	
 	方法的定义中也可以带上泛型，形式为 <any> any xxx()。实际使用时，不需要填入<any>，系统会自动根据对应关系确定any。
+	
+	\subsection{异常处理}
+	Java中异常也是类，分为checked和unchecked。checked的异常，比如IO异常，必须被用try\& catch方法catch，或者在可能出现checked异常的类后加上throws声明。checked的异常如果不处理，则程序无法编译。unchecked的异常，比如运行异常，不会影响程序编译，但是运行到异常处程序会停止。
+	
+	\subsection{Package}
+	定义一个package文件夹，里面的文件都在首行加上文件夹的path。这样是为了避免类的重名。引用类时，需要import这个package。不加package声明的文件都属于一个default package的package。
+	
+	\subsection{Access Control}
+	一个field变量或者method(以下统称变量)，有几种access等级：public、protected、private以及默认的package private。public的变量是全局公开，可以被任意访问；protected的变量可以在类内部、同一个package里、其子类访问，除此之外的访问是不允许的。private只能在class内访问。默认的package private可以被类内部或者在同一package下访问。
+	
+	注意对于接口，其默认的是public而不是package private。
+	
+	对于类本身，也有access的问题。但是private和protected的modifier是无效的，public和默认的package private是可以的。
+	
+
 \end{document}
