@@ -53,6 +53,16 @@ class Solution2 {
         }
     }
 
+    // an algorithm with time complexity O(N)
+    private static int f1(int i, int[] numList){
+        for(int j = 0;j<numList.length;j++){
+            if(numList[j] == numList[i]){
+                return j;
+            }
+        }
+        return i;
+    }
+
     public static void main(String[] args){
         ListNode l1 = new ListNode(3);
         l1.next = new ListNode(7);

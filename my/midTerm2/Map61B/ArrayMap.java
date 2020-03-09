@@ -17,7 +17,7 @@ public class ArrayMap<K,V> implements Map61B<K,V>{
 
     public int keyIndex(K key){
         for(int i = 0;i < this.size;i++){
-            if(this.Keys[i].equals(key)){
+                if(this.Keys[i].equals(key)){
                 return i;
             }
         }
