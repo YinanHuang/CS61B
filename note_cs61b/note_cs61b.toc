@@ -10,8 +10,14 @@
 \contentsline {subsection}{\numberline {1.9}Package}{5}
 \contentsline {subsection}{\numberline {1.10}Access Control}{5}
 \contentsline {section}{\numberline {2}数据结构与算法}{5}
-\contentsline {subsection}{\numberline {2.1}二叉搜索树}{5}
-\contentsline {subsection}{\numberline {2.2}B树：2-3树、2-3-4树}{6}
-\contentsline {subsection}{\numberline {2.3}红黑树}{6}
-\contentsline {subsection}{\numberline {2.4}哈希表}{6}
-\contentsline {subsection}{\numberline {2.5}堆和优先队列}{6}
+\contentsline {subsection}{\numberline {2.1}并查集}{5}
+\contentsline {subsubsection}{\numberline {2.1.1}集合实现并查集}{6}
+\contentsline {subsubsection}{\numberline {2.1.2}数组实现并查集}{6}
+\contentsline {subsubsection}{\numberline {2.1.3}树实现并查集}{6}
+\contentsline {subsection}{\numberline {2.2}树}{6}
+\contentsline {subsubsection}{\numberline {2.2.1}树的遍历}{6}
+\contentsline {subsubsection}{\numberline {2.2.2}二叉搜索树}{7}
+\contentsline {subsubsection}{\numberline {2.2.3}B树：2-3树、2-3-4树}{7}
+\contentsline {subsubsection}{\numberline {2.2.4}红黑树}{7}
+\contentsline {subsection}{\numberline {2.3}哈希表}{7}
+\contentsline {subsection}{\numberline {2.4}堆和优先队列}{8}
