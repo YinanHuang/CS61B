@@ -28,7 +28,7 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
      */
     private static int leftIndex(int i) {
         /* TODO: Your code here! */
-        return 0;
+        return 2 * i;
     }
 
     /**
@@ -36,7 +36,7 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
      */
     private static int rightIndex(int i) {
         /* TODO: Your code here! */
-        return 0;
+        return 2 * i + 1;
     }
 
     /**
@@ -44,7 +44,7 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
      */
     private static int parentIndex(int i) {
         /* TODO: Your code here! */
-        return 0;
+        return i / 2;
     }
 
     /**
@@ -108,7 +108,15 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
         validateSinkSwimArg(index);
 
         /** TODO: Your code here. */
-        return;
+        if(index == 1){
+            return; // swimming to the root
+        }
+        Node node = getNode(index);
+        Node parentNode = getNode(parentIndex(index));
+        if(node.myPriority < parentNode.myPriority){
+            swap(index, parentIndex(index));
+        }
+        swim(parentIndex(index));
     }
 
     /**
@@ -117,9 +125,35 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
     private void sink(int index) {
         // Throws an exception if index is invalid. DON'T CHANGE THIS LINE.
         validateSinkSwimArg(index);
-
         /** TODO: Your code here. */
-        return;
+        Node node = getNode(index);
+        if(this.size < 2 * index){ // no children
+            return;
+        }
+        Node leftNode = getNode(leftIndex(index));
+        if(this.size == leftIndex(index)) { // only has leftChild
+            if(node.myPriority > leftNode.myPriority){
+                swap(index, leftIndex(index));
+                sink(leftIndex(index));
+            }
+        } else { // have two children
+            Node rightNode = getNode(rightIndex(index));
+            boolean isLeft = node.myPriority > leftNode.myPriority;
+            boolean isRight = node.myPriority > rightNode.myPriority;
+            if(isLeft || isRight){
+                if(isLeft && isRight){
+                    int i = leftNode.myPriority < rightNode.myPriority ? leftIndex(index) : rightIndex(index);
+                    swap(index, i);
+                    sink(i);
+                } else if(isLeft){
+                    swap(index, leftIndex(index));
+                    sink(leftIndex(index));
+                } else{
+                    swap(index, rightIndex(index));
+                    sink(rightIndex(index));
+                }
+            }
+        }
     }
 
     /**
@@ -134,6 +168,9 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
         }
 
         /* TODO: Your code here! */
+        this.size++;
+        this.contents[this.size] = new Node(item, priority);
+        swim(this.size);
     }
 
     /**
@@ -143,7 +180,7 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
     @Override
     public T peek() {
         /* TODO: Your code here! */
-        return null;
+        return this.contents[1].myItem;
     }
 
     /**
@@ -158,7 +195,12 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
     @Override
     public T removeMin() {
         /* TODO: Your code here! */
-        return null;
+        Node node = this.contents[1];
+        swap(1, this.size);
+        this.contents[this.size] = null;
+        this.size--;
+        sink(1);
+        return node.myItem;
     }
 
     /**
@@ -181,7 +223,18 @@ public class ArrayHeap<T> implements ExtrinsicPQ<T> {
     @Override
     public void changePriority(T item, double priority) {
         /* TODO: Your code here! */
-        return;
+
+    }
+    private void changePriority(int index, T item, double priority){
+        Node x = this.contents[index];
+        if(x == null){
+            return;
+        }
+        if(x.myItem.equals(item)){
+            x.myPriority = priority;
+        }
+        changePriority(leftIndex(index), item, priority);
+        changePriority(leftIndex(index), item, priority);
     }
 
     /**
