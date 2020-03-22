@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  19 MAR 2020 00:43
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.1.25)  22 MAR 2020 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1191,21 +1191,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-)
+ [1
+
+])
 \tf@toc=\write3
 \openout3 = `note_cs61b.toc'.
 
- [1
-
-] [2] [3]
-[4] [5] [6] [7] [8] (./note_cs61b.aux) ) 
+ [2] [3]
+[4] [5] [6] [7] [8] [9] [10] (./note_cs61b.aux) ) 
 Here is how much of TeX's memory you used:
- 14395 strings out of 492970
- 344083 string characters out of 6137298
- 403933 words of memory out of 5000000
- 18275 multiletter control sequences out of 15000+600000
+ 14405 strings out of 492970
+ 344750 string characters out of 6137298
+ 402933 words of memory out of 5000000
+ 18285 multiletter control sequences out of 15000+600000
  534230 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,6n,68p,10437b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on note_cs61b.pdf (8 pages).
+Output written on note_cs61b.pdf (10 pages).
